@@ -45,13 +45,13 @@ Ticket Price (Target Variable to be Predicted)
 
 11. Model Training
     
-   Split data into training and testing sets.  
-   Trained machine learning models including Random Forest Regressor and Decision Tree Regressor.
+    Split data into training and testing sets.  
+    Trained machine learning models including Random Forest Regressor and Decision Tree Regressor.
 
 13. Model Evaluation
     
-   Assessed performance using R² Score, MAE, RMSE, MSE, and MAPE.  
-   Hyperparameter Tuning
+    Assessed performance using R² Score, MAE, RMSE, MSE, and MAPE.  
+    Hyperparameter Tuning
 
 15. Optimized model parameters using RandomizedSearchCV.
    Model Serialization
