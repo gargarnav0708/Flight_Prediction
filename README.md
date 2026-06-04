@@ -19,38 +19,38 @@ Ticket Price (Target Variable to be Predicted)
 
 1. Data Collection and Cleaning
    
-   Load excel containing fare dataset
+   Load excel containing fare dataset  
    Handle missing values and remove inconsistent records
 
 3. Feature Engineering
    
-   Extracted journey date, departure time, and arrival time features.
+   Extracted journey date, departure time, and arrival time features.  
    Converted flight duration into numerical attributes.
 
 5. Encoded categorical variables such as airline, source, destination, and total stops.
    
-   Exploratory Data Analysis (EDA)
+   Exploratory Data Analysis (EDA)  
    Analyzed relationships between flight duration, stops, airlines, and ticket prices.
 
 7. Visualized trends using Matplotlib, Seaborn, and Plotly.
    
-   Outlier Treatment
-   Identified extreme fare values using the IQR method.
+   Outlier Treatment  
+   Identified extreme fare values using the IQR method.  
    Reduced the impact of outliers to improve model performance.
 
 9. Feature Selection
     
-   Evaluated feature importance using Mutual Information Regression.
+   Evaluated feature importance using Mutual Information Regression.  
    Selected the most relevant predictors for price estimation.
 
 11. Model Training
     
-   Split data into training and testing sets.
+   Split data into training and testing sets.  
    Trained machine learning models including Random Forest Regressor and Decision Tree Regressor.
 
 13. Model Evaluation
     
-   Assessed performance using R² Score, MAE, RMSE, MSE, and MAPE.
+   Assessed performance using R² Score, MAE, RMSE, MSE, and MAPE.  
    Hyperparameter Tuning
 
 15. Optimized model parameters using RandomizedSearchCV.
